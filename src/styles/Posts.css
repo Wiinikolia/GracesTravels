@@ -1,0 +1,12 @@
+body {
+	background-color: #1b9ab9;
+}
+.posts-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-bottom: auto;
+}
