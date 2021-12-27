@@ -22,14 +22,15 @@ function Dashboard() {
       console.error(err);
       alert("An error occured while fetching user data");
     }
-  };
+};
 
-  useEffect(() => {
+useEffect(() => {
     if (loading) return;
     if (!user) return history.replace("/");
 
     fetchUserName();
-  }, [user, loading]);
+  }, [user, loading]
+);
 
   return (
     <div className="dashboard">
