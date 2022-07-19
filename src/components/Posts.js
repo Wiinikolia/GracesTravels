@@ -1,4 +1,3 @@
-import React from "react";
 import "./../styles/Posts.css";
 import Post from "./Post";
 
