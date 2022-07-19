@@ -1,11 +1,11 @@
-import Navbar1 from './components/Navbar';
+import Navbar from './components/Navbar';
 import Posts from './components/Posts';
 import AdComponent from './adComponent';
 
 function homePage() {
   return (
     <div>
-      <Navbar1/>
+      <Navbar/>
       <AdComponent/>
       <Posts />
       <br/>
