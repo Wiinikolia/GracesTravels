@@ -1,5 +1,6 @@
 import "./../styles/Posts.css";
 import Post from "./Post";
+import { TikTok } from "react-tiktok";
 
 const Posts = () => {
 const blogPosts = [
@@ -20,10 +21,13 @@ const blogPosts = [
 ];
 
 return (
-	<div className="posts-container">
-	{blogPosts.map((post, index) => (
-		<Post key={index} index={index} post={post} />
-	))}
+	<div>
+		<div className="posts-container">
+		{blogPosts.map((post, index) => (
+			<Post key={index} index={index} post={post} />
+		))}
+		</div>
+		<TikTok url="https://www.tiktok.com/@coopergracee/video/7117040092543192363?is_copy_url=1&is_from_webapp=v1&lang=en" />
 	</div>
 );
 };
